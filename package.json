@@ -1,0 +1,19 @@
+{
+  "name": "rastgele-anonim-sohbet",
+  "version": "1.1.0",
+  "private": true,
+  "description": "KVKK akışı, SQLite kayıt ve moderasyon paneli içeren anonim rastgele sohbet",
+  "main": "server.js",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "socket.io": "^4.8.4"
+  }
+}
